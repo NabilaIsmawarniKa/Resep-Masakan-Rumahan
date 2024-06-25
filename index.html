@@ -3,70 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resep Makanan</title>
-    <style>
-        h1{ color:darkblue; 
-            text-align: center;
-            font-size: 42px;
-        }
-        .center{
-            text-align: center;
-        }
-        ol{
-            font-size: 20px;
-        }
-        p{
-            font-size: 20px;
-        }
-        
-    </style>
+    <title>Kopi Kenangan Senja</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-        <p class="center"> </p>
-        <h1>
-            Resep Masakan Rumahan 
-        </h1>
-        <h2> Orek Tempe</h2> 
-        <img src = "image/orek tempe.jpg" width="300px" alt = "logo" />
-        <p> Cara Masak dan Resep:</p>
-        <p> Panaskan minyak, tumis bawang putih, lengkuas, dan daun salam hingga harum.
+   <nav class="navbar">
+    <a href="#" 
+    class="navbar-logo">RESEP<span>KOKI.</span> </a>
 
-            Masukkan tempe, Royco Kaldu Ayam, Bango Kecap Manis Pedas, dan air. Aduk rata.
-            
-            Masak hingga bumbu meresap dan air mengering.
-            
-            Angkat dan sajikan. </p>
-        <ol> 
-            <li>
-                300 g tempe, potong dadu 2 cm, goreng hingga setengah matang
-            </li>
-            <li> 
-                siung bawang putih, iris halus
-            </li> 
-            <li>
-                3 sdm Bango kecap manis
-            </li>
-            <li>
-                2 lembar daun salam
-            </li>
-            <li>
-                2 cm lengkuas
-            </li>
-            <li>
-                2 sdt Royco kaldu ayam
-            </li>
-            <li>
-                1/2 sdt gula pasir
-            </li>
-            <li>
-                1/2 sdt garam
-            </li>
-            <li>
-                200 ml air
-            </li>
-            <li>
-                3 sdm minyak,untuk menumis
-            </li>
-        </ol>
+       <div class="navbar-nav">
+        <a href="#home">HOME</a>
+        <a href="#about">RESEP</a>
+        <a href="#about">TIPS DASAR</a>
+        <a href="#Menu">PENGETAHUAN DASAR</a>
+        <a href="#contact"> TENTANG </a>
+       </div>
+       
+
+       <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+       </div>
+   </nav>
+
+
+
+
+
+
+   <!-- hero section start-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari temukan resep anda <span>Sekarang</span></h1>
+            <p>awokwokwokwokwokwokwokwokwowkwokwokwok</p>
+            <a href="#" class="cta">Cari Sekarang</a>
+        </main>
+    </section>
+   <!-- hero section end -->
+
+
+   <!-- About section start -->
+
+<section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="img/wall_1.jpg" alt="Tentang Kami">
+        </div>
+        <div class="content">
+            <h3>Kenapa memilih harus mencari resesp disini</h3>
+            <p> Indonesia dikenal sebagai negara yang kaya akan keanekaragaman budaya dan tradisi, termasuk dalam hal kuliner.</p>
+            <p>Setiap daerah di Indonesia memiliki masakan khas yang unik dan lezat, menjadikan kuliner Indonesia sangat beragam dan menarik untuk dieksplorasi.</p>
+            <p>Dalam artikel ini, kami akan membagikan resep masakan Indonesia yang dapat Anda coba di rumah.</p>
+
+        </div>
+    </div>
+</section>
+
+   <!-- About section end -->
+
+<!-- Menu section start -->
+
+<section id="Menu" class="Menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vero ut earum eius officiis esse.</p>
+
+<div class="row">
+    <div class="menu-card">
+        <img src="img/Resep Makanan Berbahan Dasar Tempe, Orek Tempe Kecap Gurih.jpeg" alt="Orek Tempe" class="menu-card-img">
+        <h3 class="menu-card-title" >- Orek Tempe -</h3>
+        <p class="manu-card-price"> Resep </p>
+    </div>
+    <div class="menu-card">
+        <img src="img/Nasi Goreng (Indonesian Fried Rice) - Sugar Spice & More.jpeg" alt="Nasi Goreng" class="menu-card-img" width="10px">
+        <h3 class="menu-card-title" >- Nasi Goreng -</h3>
+        <p class="manu-card-price"> Resep </p>
+    </div>
+    <div class="menu-card">
+        <img src="img/Resep Sop Ayam Sederhana, Mudah Banget!.jpeg" alt="Sop Ayam" class="menu-card-img" width="10px">
+        <h3 class="menu-card-title" >- Sop Ayam  -</h3>
+        <p class="manu-card-price"> Resep </p>
+    </div>
+    <div class="menu-card">
+        <img src="img/resep2.jpg" alt="Cappucino" class="menu-card-img" width="10px">
+        <h3 class="menu-card-title" >- Cappucino -</h3>
+        <p class="manu-card-price">IDR 15K</p>
+    </div>
+</div>
+
+</section>
+
+<!-- Menu section end -->
+
+<!-- feather icons -->
+<script>
+    feather.replace();
+</script>
+<!-- My javascript -->
+<script src="js/script.js"></script>
+
+
+
 </body>
+</html>
