@@ -14,6 +14,7 @@
 
 body{
     font-family: Poppins, sans-serif;
+    font-size: x-large;
     background-color: var(--bg);
     color: maroon;
     min-height: 3000px;
@@ -21,6 +22,7 @@ body{
 
 .navbar {
     display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
@@ -214,7 +216,48 @@ body{
 }
 
 
+/* Ini yang baru aku tambahin
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+/* Dropdown button */
+.dropdown .dropbtn {
+    cursor: pointer;
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #161616;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Position the dropdown below the button */
+    left: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Make links display vertically */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 
