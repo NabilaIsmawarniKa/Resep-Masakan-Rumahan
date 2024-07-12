@@ -44,7 +44,7 @@ body{
     color: rgb(147, 20, 46);
 }
 .navbar .navbar-nav a{
-    color: white;
+    color:white;
     display: inline-block;
     font-size: 1.1rem;
     margin: 0 1rem;
@@ -261,13 +261,6 @@ body{
 
 
 
-
-
-
-
-
-
-
 /*media queris*/
 
 
@@ -313,7 +306,7 @@ body{
     }
 
     .navbar .navbar-nav a::after{
-        transform-origin: 0 0;
+        transform-origin: 0 0;  
     }
 
     .navbar .navbar-nav a:hover::after{
@@ -329,7 +322,7 @@ body{
     }
     .about .row .content h3{
         margin-top: 1rem;
-        font-size: 2rem;
+        font-size: 1,8rem;
     }
 }
 
@@ -340,6 +333,30 @@ body{
         font-size: 55%;
     }
 }
+
+
+/* Tempe Orek */
+
+p{
+    padding: 0%;
+    text-align: left;
+    font-size:2rem;
+    color: #161616;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding: 0%;
+    
+}
+.navbar-nav{
+    background-color: black;
+}
+
 
 
 
