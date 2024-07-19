@@ -1,16 +1,102 @@
-<html>
-    <head>
-        <body>
-        <h1 align="center">Menggoreng</h1>
-        <hr width="300px">
-        <table align="center" cellpadding="10x width=600px">
-    </head>
-    <div class="row">
-        <div class="menu-card">
-            <img src="image/masakan goreng.jpeg"width=500>
-            <p class="manu-card-price"></p>
-            <div class="menu-card">
-                <h3 class="menu-card-title" > <a href="6MenuGoreng.html">6 menu Masakan Goreng</a></h3>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESEP KOKI</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">RESEP<span>KOKI.</span> </a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Tips Dasar</a>
+          <div class="dropdown-content">
+            <a href="menggoreng.html">Menggoreng</a>
+            <a href="merebus.html">Merebus</a>
+            <a href="menumis.html">Menumis</a>
+          </div>
         </div>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Resep</a>
+          <div class="dropdown-content">
+            <a href="ayam.html">Ayam</a>
+            <a href="daging.html">Daging</a>
+            <a href="ikan.html">Ikan</a>
+            <a href="seafood.html">Seafood</a>
+            <a href="tempe-tahu.html">Tahu & Tempe</a>
+            <a href="telur.html">Telur</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Pengetahuan Dasar</a>
+          <div class="dropdown-content">
+            <a href="bahan-masak-dan-makanan.html">Bahan Masak dan Makanan</a>
+            <a href="bumbu-dapur.html">Bumbu Dapur</a>
+            <a href="peralatan-dapur.html">Peralatan Dapur</a>
+          </div>
+        </div>
+        <a href="#tentang"> Tentang </a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Ini Dropdown 1 Resep -->
+
+      <!-- Ini Dropdown 2 Tips Dasar -->
+
+      <!-- Ini Dropdown 3 - Pengetahuan Dasar -->
+    </nav>
+
+    <section class="container">
+      <div class="tips-content">
+        <img src="image/menggoreng.jpg" />
+        <div class="content-card">
+          <h1>Tips Menggoreng</h1>
+          <ol>
+            <li>
+              Pilih minyak yang tahan panas tinggi seperti minyak kelapa, minyak
+              sawit, atau minyak kanola. Hindari minyak yang mudah rusak oleh
+              panas tinggi seperti minyak zaitun.
+            </li>
+            <li>
+              Pastikan minyak sudah cukup panas sebelum menambahkan bahan
+              makanan. Cara mudah untuk mengetahuinya adalah dengan memasukkan
+              sedikit adonan atau bahan makanan; jika berbuih dan naik ke
+              permukaan, minyak sudah cukup panas.
+            </li>
+            <li>
+              Jangan mengisi wajan terlalu penuh dengan makanan karena ini dapat
+              menurunkan suhu minyak dan membuat makanan tidak matang secara
+              merata.
+            </li>
+            <li>
+              Gunakan api sedang hingga besar untuk mendapatkan hasil gorengan
+              yang renyah di luar dan matang di dalam.
+            </li>
+            <li>
+              Setelah menggoreng, tiriskan makanan di atas kertas minyak atau
+              tisu dapur untuk mengurangi kelebihan minyak.
+            </li>
+          </ol>
+          <h3 class="menu-card-title">
+            <a href="6-menu-goreng.html">6 menu Masakan Goreng</a>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
