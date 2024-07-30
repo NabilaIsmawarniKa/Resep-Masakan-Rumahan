@@ -92,7 +92,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('image/3.jpg');
+    background-image: url('image/wpp.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -117,7 +117,7 @@ body {
 
 .hero .content h1 {
     font-size: 30pt;
-    color:orange;
+    color:khaki;
     text-shadow: 1px 1px 3px rgba(1, 1, 1, 3, 0.5);
 }
 
@@ -164,15 +164,16 @@ body {
     padding: 1rem 2rem;
 }
 
-/* about sections */
-/* .about,
+/* About section */
+/* .about */
+
 .Menu {
     padding: 8rem 7% 1.4rem;
 } */
 
 .about h2,
 .menu h2 {
-    text-align: center;
+    text-align:left;
     margin-bottom: 3rem;
 }
 
